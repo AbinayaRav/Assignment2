@@ -1,4 +1,4 @@
-package com.Assignment2;
+package com.Assignment2Task2;
 
 import java.util.Scanner;
 
@@ -14,8 +14,6 @@ public class Task2Question8 {
                 flag = true;
                 System.out.println("FOUND");
                 break;
-            } else {
-                flag = false;
             }
         }
         if (!flag) {

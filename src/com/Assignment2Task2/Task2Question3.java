@@ -1,11 +1,11 @@
-package com.Assignment2;
+package com.Assignment2Task2;
 
 public class Task2Question3 {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
         int c = 30;
-        double average = 0.0;
+        double average;
         average = (double)(a+b+c)/3;
         System.out.println("Average of a, b and c is "+average);
         if(average>a&&average>b&&average>c)

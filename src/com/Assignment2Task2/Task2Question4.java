@@ -1,4 +1,4 @@
-package com.Assignment2;
+package com.Assignment2Task2;
 
 import java.util.Scanner;
 
@@ -14,7 +14,6 @@ public class Task2Question4 {
                 continue;
             } else {
                 System.out.println(" ******* It's over!!!! *******");
-                flag = false;
                 break;
             }
         }

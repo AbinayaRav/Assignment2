@@ -1,12 +1,11 @@
-package com.Assignment2;
+package com.Assignment2Task2;
 
 import java.util.Scanner;
 
 public class Task2Question2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        boolean flag = true;
-        while (flag) {
+        while (true) {
             System.out.println("Please select one of the arithmetic operations to be performed :");
             System.out.println("1. Addition\t 2. Subtraction\t 3. Multiplication\t 4. Division\t 5. Average");
             int option = scan.nextInt();
